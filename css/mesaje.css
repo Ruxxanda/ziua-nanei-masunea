@@ -1,0 +1,41 @@
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbe7;
+    margin: 0;
+    padding: 0;
+
+}
+
+.mesaje-container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 30px;
+    color: #f39c12;
+}
+
+.mesaj-personal h2 {
+    font-size: 24px;
+    color: #e67e22;
+}
+
+.mesaj-personal p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+div.buton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
