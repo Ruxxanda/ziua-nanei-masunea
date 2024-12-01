@@ -1,0 +1,48 @@
+/* Stiluri generale */
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbe7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.joc-container {
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Secțiunea de întrebare și opțiuni */
+.intrebare p {
+    font-size: 20px;
+}
+
+.optiuni {
+    margin-top: 20px;
+}
+
+.optiune {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.optiune:hover {
+    background-color: #e67e22;
+}
